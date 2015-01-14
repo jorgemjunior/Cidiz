@@ -1,0 +1,12 @@
+Três diretórios especiais compõem a estrutura básica do controle de versões do SVN. São eles:
+
+Trunk (tronco): armazena a versão funcional mais recente dos projetos em desenvolvimento. Atualizações do dia-a-dia são armazenadas nessa pasta. Geralmente contém os arquivos mais atuais do projeto, bem como as correções de bugs e os últimos recursos adicionados ao projeto;
+
+Branches (galhos ou ramificações): A pasta branches armazena vários branches. Um branch contém uma cópia de determinada revisão estável de trunk. Essas versões costumam ser criadas nas seguintes situações:
+Quando a equipe decide que o projeto está pronto para ser liberado como uma versão;
+Quando for necessário criar uma nova funcionalidade que posteriormente será mesclada de volta ao tronco ou quando uma implementação trouxer o risco de afetar a integridade do trunk;
+Para criar outra linha de desenvolvimento independente do tronco;
+
+
+
+Tags (etiquetas): armazena etiquetas para facilitar a localização de revisões. Cada etiqueta possui um nome único que a identifica, sendo criada como um diretório, sempre através do trunk
